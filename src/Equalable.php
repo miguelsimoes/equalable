@@ -20,6 +20,16 @@ namespace MiguelSimoes\Core\Equalable;
 interface Equalable
 {
     /**
+     * Gets whether two objects are based on the same class
+     *
+     * @param object $first
+     * @param object $second
+     *
+     * @return bool
+     */
+    public function classEquals($first, $second): bool;
+
+    /**
      * Gets whether the provided value is the same as the value that is stored
      * on the instance
      *
