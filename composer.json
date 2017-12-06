@@ -1,0 +1,24 @@
+{
+    "name"   : "smsimoes/equalable",
+    "description": "Core Component for objects that require a strict object comparasion",
+    "license": "MIT",
+    "keywords": [],
+    "homepage": "https://github.com/miguelsimoes/equalable",
+    "authors": [
+        {
+            "name": "Miguel Simões",
+            "email": "msimoes@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MiguelSimoes\\Core\\Equalable\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "require": {
+        "php": "^7.0"
+    }
+}
