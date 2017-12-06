@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "MiguelSimoes\\Core\\Equalable\\": ""
+            "MiguelSimoes\\Core\\Equalable\\": "src/"
         },
         "exclude-from-classmap": [
             "/Tests/"
