@@ -18,7 +18,7 @@
             "/Tests/"
         ]
     },
-    "autokoad-dev": {
+    "autoload-dev": {
         "psr-4": {
             "MiguelSimoes\\Core\\Equalable\\Tests\\": "tests/"
         }
